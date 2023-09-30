@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Exercício 10</title>
+</head>
+<body>
+    <h1>Prestação em Atraso</h1>
+    <form id="formulario">
+        <label for="valorPrestacao">Valor da Prestação: </label>
+        <input type="number" id="valorPrestacao" step="0.01" required><br><br>
+
+        <label for="taxaJuros">Taxa de Juros (%): </label>
+        <input type="number" id="taxaJuros" step="0.01" required><br><br>
+
+        <label for="diasAtraso">Dias em Atraso: </label>
+        <input type="number" id="diasAtraso" required><br><br>
+
+        <input type="submit" value="Calcular Atraso">
+    </form>
+
+    <p id="resultado"></p>
+    <script src="script.js"></script>
+
+</body>
+</html>

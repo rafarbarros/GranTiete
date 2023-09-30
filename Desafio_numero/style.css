@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(0, 0, 40) ;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: auto;
+    border-radius: 40px;
+    background-color: rgb(0, 0, 85);
+    padding: 30px;
+    text-align: center;
+}
+button{ 
+    background-color: rgb(0, 140, 255);
+    padding: 15px;
+    border-radius: 25px;
+    width: auto;
+    height: auto;
+    color: white;
+}
+
+
+sub{
+    font-size: 10px;
+}
+
+input{
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: bold;
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+}
+h1{
+    font-size: 30px;
+    font-style: oblique;
+}
+h2{
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    padding-top: px;
+}
+h4,p,h3,h5{
+    font-size: large;
+    font-style:oblique;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Exercício 14</title>
+</head>
+
+<body>
+
+    <h1>Calcular o Peso Ideal</h1>
+    <h3>Informe a idade, altura e sexo:</h3>
+    <label for="idade">Idade:</label>
+    <input type="number" id="idade" placeholder="Idade"><br><br>
+    <label for="altura">Altura (Exemplo: 1,80):</label>
+    <input type="number" step="0.01" id="altura" placeholder="Altura"><br><br>
+    <label for="sexo">Sexo:</label>
+    <select id="sexo">
+        <option value="M">Masculino</option>
+        <option value="F">Feminino</option>
+    </select><br><br>
+    <button onclick="calcularPesoIdeal()">Calcular Peso Ideal</button>
+    <p id="resultado"></p>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

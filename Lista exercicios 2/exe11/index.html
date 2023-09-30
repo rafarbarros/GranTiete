@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Exercício 11</title>
+</head>
+<body>
+
+    <h1>Calcular Crédito</h1>
+    <h3>Informe o saldo médio do cliente:</h3>
+    <input type="number" id="saldoMedio" placeholder="Saldo Médio">
+    <button onclick="calcularCredito()">Calcular Crédito</button>
+    <p id="resultado"></p>
+
+    <script src="script.js"></script>
+
+    <table border="2" width="400px" height="200px">
+
+        <tr>
+            <td align="center">Saldo Médio</td>
+            <td align="center">Percentual</td>
+        </tr>
+
+        <tr>
+            <td align="center">De R$0,00 a R$200,00</td>
+            <td align="center">Nenhum Crédito</td>
+        </tr>
+
+        <tr>
+            <td align="center">De R$201,00 a R$400,00</td>
+            <td align="center">20% do valor do Saldo Médio</td>
+        </tr>
+        <tr>
+            <td align="center">De R$401,00 a R$600,00</td>
+            <td align="center">30% do valor do Saldo Médio</td>
+        </tr>
+        <tr>
+            <td align="center">Acima de R$601,00</td>
+            <td align="center">40% do valor do Saldo Médio</td>
+        </tr>
+        
+    </table>
+    
+</body>
+</html>
